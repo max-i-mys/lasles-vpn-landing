@@ -300,6 +300,7 @@ html {
 	--theme-color: #f53838;
 	--theme-color-2: #4f5665;
 	--text-sh-theme: 0px 3px 3px rgba(245, 56, 56, 0.5);
+	--box-sh-theme: 0px 15px 20px rgba(245, 56, 56, 0.5);
 }
 body {
 	font-size: 1.6rem;
@@ -357,6 +358,18 @@ button {
 	border: 1px solid var(--theme-color);
 	border-radius: 50px;
 	background-color: transparent;
+}
+.button-theme-2 {
+	color: var(--light);
+	min-width: 250px;
+	min-height: 60px;
+	border-radius: 10px;
+	border: none;
+	background-color: var(--theme-color);
+}
+.button-theme-2:hover,
+.button-theme-2:focus {
+	box-shadow: var(--box-sh-theme);
 }
 /*!=================COMMON STYLES END===================*/
 /*!=================HEADER START===================*/
@@ -429,7 +442,35 @@ button {
 /*!=================HEADER END===================*/
 /*!=================MAIN START===================*/
 /**=================CTA START===================*/
-
+.cta-container {
+	display: flex;
+}
+.cta__info {
+	/* width: 50%; */
+	padding-top: 25px;
+}
+.cta__title {
+	font-size: 5rem;
+	line-height: 1.4;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.cta__title span {
+	font-weight: 700;
+}
+.cta__text {
+	line-height: 1.9;
+	margin-bottom: 35px;
+}
+.cta__text span {
+	font-weight: 500;
+}
+.cta__img {
+	width: 50%;
+	height: auto;
+	object-fit: cover;
+	transform: translateX(60px);
+}
 /**=================CTA END===================*/
 /*!=================MAIN END===================*/
 /* Desktop first method
