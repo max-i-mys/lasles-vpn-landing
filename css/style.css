@@ -349,6 +349,7 @@ button {
 	align-items: center;
 	padding: 10px;
 	transition: 0.3s;
+	outline: none;
 }
 .button-theme {
 	color: var(--theme-color);
@@ -381,7 +382,8 @@ button {
 	position: absolute;
 	left: 0;
 }
-.header__logo:hover {
+.header__logo:hover,
+.header__logo:focus {
 	color: var(--theme-color);
 	text-shadow: var(--text-sh-theme);
 }
@@ -402,7 +404,8 @@ button {
 .header__navlink {
 	padding: 5px;
 }
-.header__navlink:hover {
+.header__navlink:hover,
+.header__navlink:focus {
 	color: var(--theme-color);
 }
 .user {
@@ -419,10 +422,16 @@ button {
 .header__button {
 	min-width: 150px;
 }
-.header__button:hover {
+.header__button:hover,
+.header__button:focus {
 	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
 /*!=================HEADER END===================*/
+/*!=================MAIN START===================*/
+/**=================CTA START===================*/
+
+/**=================CTA END===================*/
+/*!=================MAIN END===================*/
 /* Desktop first method
 
 /* // XX-Large devices (larger desktops) */
