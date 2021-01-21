@@ -392,6 +392,7 @@ button {
 	line-height: 1.9;
 	width: 50%;
 	margin: 0 auto 30px;
+	color: var(--theme-color-2);
 }
 .titles,
 .titles-desk {
@@ -680,6 +681,22 @@ button {
 	height: auto;
 }
 /**=================PARTNERS END===================*/
+/**=================COMMITS START===================*/
+.commits .titles-desk {
+	margin-bottom: 60px;
+}
+.commits__commit {
+	display: flex;
+	flex-direction: column;
+}
+.commits__foto {
+	width: 50px;
+	height: auto;
+}
+.commits__person {
+	display: flex;
+}
+/**=================COMMITS END===================*/
 /*!=================MAIN END===================*/
 /* Desktop first method
 
