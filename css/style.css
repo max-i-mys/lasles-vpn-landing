@@ -496,6 +496,9 @@ button {
 .serv__title {
 	margin-bottom: 20px;
 }
+.serv {
+	margin-top: 95px;
+}
 .serv .cta-serv__info {
 	padding-left: 135px;
 }
@@ -523,10 +526,10 @@ button {
 }
 .serv__list li::before {
 	content: "";
-	width: 24px;
-	height: 24px;
-	background-color: #2fab73;
-	border-radius: 50%;
+	width: 21px;
+	height: 21px;
+	background: url(../img/check.svg) no-repeat center;
+	margin-right: 12px;
 }
 /**=================CTA & SERVIES END===================*/
 /**=================COUNTER START===================*/
