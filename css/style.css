@@ -379,6 +379,22 @@ button {
 	align-items: center;
 	border-radius: 50%;
 }
+.titles {
+	margin-bottom: 20px;
+	font-size: 3.5rem;
+	font-weight: 500;
+	text-transform: capitalize;
+	line-height: 1.4;
+	color: var(--dark);
+}
+.titles-desk {
+	margin-bottom: 30px;
+	line-height: 1.9;
+}
+.titles,
+.titles-desk {
+	text-align: center;
+}
 /*!=================COMMON STYLES END===================*/
 /*!=================HEADER START===================*/
 .header {
@@ -467,15 +483,13 @@ button {
 	line-height: 1.4;
 	font-weight: 500;
 }
-.cta__title,
-.serv__title {
+.cta__title {
 	color: var(--dark);
 }
 .cta-serv__title span {
 	font-weight: 700;
 }
-.cta__text,
-.serv__text {
+.cta__text {
 	line-height: 1.9;
 }
 .cta__text {
@@ -492,8 +506,7 @@ button {
 .cta__img {
 	transform: translateX(60px);
 }
-.cta__title,
-.serv__title {
+.cta__title {
 	margin-bottom: 20px;
 }
 .serv {
@@ -502,17 +515,12 @@ button {
 .serv .cta-serv__info {
 	padding-left: 135px;
 }
+.cta-serv__info .titles,
+.cta-serv__info .titles-desk {
+	text-align: left;
+}
 .serv__img {
 	order: -1;
-}
-.serv__title {
-	font-size: 3.5rem;
-	font-weight: 500;
-	text-transform: capitalize;
-	line-height: 1.4;
-}
-.serv__text {
-	margin-bottom: 30px;
 }
 .serv__list {
 	font-size: 1.4rem;
