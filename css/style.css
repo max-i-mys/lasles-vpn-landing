@@ -332,9 +332,11 @@ button {
 }
 button {
 	cursor: pointer;
+	transition: 0.3s;
 }
 :focus {
 	outline: 2px solid var(--theme-color);
+	z-index: 1;
 }
 .container {
 	max-width: 1140px;
@@ -351,7 +353,6 @@ button {
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
-	transition: 0.3s;
 	outline: none;
 }
 .button-theme {
@@ -394,6 +395,16 @@ button {
 .titles,
 .titles-desk {
 	text-align: center;
+}
+.lists {
+	font-size: 1.4rem;
+}
+.lists li {
+	display: flex;
+	align-items: center;
+}
+.lists li:nth-of-type(n + 2) {
+	margin-top: 30px;
 }
 /*!=================COMMON STYLES END===================*/
 /*!=================HEADER START===================*/
@@ -522,16 +533,6 @@ button {
 .serv__img {
 	order: -1;
 }
-.serv__list {
-	font-size: 1.4rem;
-}
-.serv__list li {
-	display: flex;
-	align-items: center;
-}
-.serv__list li:nth-of-type(n + 2) {
-	margin-top: 30px;
-}
 .serv__list li::before {
 	content: "";
 	width: 21px;
@@ -583,6 +584,72 @@ button {
 	text-shadow: var(--text-sh-theme);
 }
 /**=================COUNTER END===================*/
+/**=================RATE START===================*/
+.rate__plans {
+	display: flex;
+	justify-content: space-around;
+}
+.rate__plan {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	padding: 70px 70px 50px 70px;
+	margin-top: 45px;
+	min-height: 740px;
+	transition: 0.3s;
+}
+.rate__plan:hover,
+.rate__plan:focus {
+	outline: none;
+	border: 2px solid var(--theme-color);
+}
+.rate__plan img {
+	width: 145px;
+	height: auto;
+	margin-bottom: 30px;
+	order: 1;
+}
+.rate__name {
+	order: 2;
+	margin-bottom: 30px;
+	font-weight: 500;
+}
+.rate__list {
+	order: 3;
+	color: var(--theme-color-2);
+}
+.rate__list li::before {
+	content: "";
+	width: 14px;
+	height: 14px;
+	background: url(../img/check2.svg) no-repeat center;
+	margin-right: 15px;
+}
+.rate__price {
+	order: 4;
+	margin-top: auto;
+	font-size: 2.5rem;
+}
+.rate__price span {
+	font-weight: 500;
+}
+.rate__button {
+	order: 5;
+	min-width: 178px;
+	margin-top: 22px;
+}
+.rate__button:focus {
+	outline: none;
+}
+.rate__plan:hover .rate__button,
+.rate__plan:focus .rate__button {
+	color: var(--light);
+	background-color: var(--theme-color);
+	box-shadow: var(--box-sh-theme);
+}
+/**=================RATE END===================*/
 /*!=================MAIN END===================*/
 /* Desktop first method
 
