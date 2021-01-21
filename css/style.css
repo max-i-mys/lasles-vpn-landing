@@ -668,6 +668,16 @@ button {
 	height: auto;
 }
 /**=================MAP END===================*/
+/**=================PARTNERS START===================*/
+/* .partners .swiper-container {
+	width: 600px;
+	height: 300px;
+} */
+.partners__container img {
+	width: 100%;
+	height: auto;
+}
+/**=================PARTNERS END===================*/
 /*!=================MAIN END===================*/
 /* Desktop first method
 
