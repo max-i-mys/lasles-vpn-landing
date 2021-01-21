@@ -381,16 +381,17 @@ button {
 	border-radius: 50%;
 }
 .titles {
-	margin-bottom: 20px;
 	font-size: 3.5rem;
 	font-weight: 500;
-	text-transform: capitalize;
 	line-height: 1.4;
 	color: var(--dark);
+	width: 33%;
+	margin: 0 auto 20px;
 }
 .titles-desk {
-	margin-bottom: 30px;
 	line-height: 1.9;
+	width: 50%;
+	margin: 0 auto 30px;
 }
 .titles,
 .titles-desk {
@@ -521,7 +522,8 @@ button {
 	margin-bottom: 20px;
 }
 .serv {
-	margin-top: 95px;
+	margin-bottom: 82px;
+	padding-bottom: 130px;
 }
 .serv .cta-serv__info {
 	padding-left: 135px;
@@ -529,6 +531,7 @@ button {
 .cta-serv__info .titles,
 .cta-serv__info .titles-desk {
 	text-align: left;
+	width: 100%;
 }
 .serv__img {
 	order: -1;
@@ -542,6 +545,9 @@ button {
 }
 /**=================CTA & SERVIES END===================*/
 /**=================COUNTER START===================*/
+.counter {
+	margin-bottom: 95px;
+}
 .counter-container {
 	display: flex;
 	padding: 37px 0;
@@ -585,6 +591,9 @@ button {
 }
 /**=================COUNTER END===================*/
 /**=================RATE START===================*/
+.rate {
+	margin-bottom: 150px;
+}
 .rate__plans {
 	display: flex;
 	justify-content: space-around;
@@ -650,6 +659,15 @@ button {
 	box-shadow: var(--box-sh-theme);
 }
 /**=================RATE END===================*/
+/**=================MAP START===================*/
+.map .titles-desk {
+	margin-bottom: 160px;
+}
+.map__img {
+	width: 100%;
+	height: auto;
+}
+/**=================MAP END===================*/
 /*!=================MAIN END===================*/
 /* Desktop first method
 
