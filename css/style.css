@@ -290,6 +290,9 @@ table {
 ::after {
 	box-sizing: border-box;
 }
+::selection {
+	background-color: #f78080;
+}
 html {
 	scroll-behavior: smooth;
 	font-size: 10px;
@@ -685,6 +688,9 @@ button {
 .commits .titles-desk {
 	margin-bottom: 60px;
 }
+.sw-com-container {
+	margin-bottom: 60px;
+}
 .commits__commit {
 	display: flex;
 	flex-direction: column;
@@ -692,9 +698,106 @@ button {
 .commits__foto {
 	width: 50px;
 	height: auto;
+	margin-right: 20px;
 }
 .commits__person {
 	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+	position: relative;
+}
+.commits__commit {
+	padding: 30px;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	min-height: 230px;
+}
+.commits__commit:hover,
+.commits__commit:focus {
+	border-color: var(--theme-color);
+	box-shadow: var(--box-sh-theme-2);
+	outline: none;
+}
+.commits__name {
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+.commits__name span {
+	font-size: 1.4rem;
+	font-weight: normal;
+	color: var(--theme-color-2);
+}
+.rating {
+	position: absolute;
+	right: 30px;
+}
+.rating::after {
+	content: "";
+	width: 16px;
+	height: 16px;
+	background: url(../img/star.svg) no-repeat center;
+	margin-left: 10px;
+}
+.commits__text p {
+	line-height: 1.9;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.commits__navigations {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 12%;
+	padding-bottom: 182px;
+	align-items: center;
+}
+.commits__buttons {
+	display: flex;
+}
+.commits__btn {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid var(--theme-color);
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa-arrow-right,
+.fa-arrow-left {
+	color: var(--theme-color);
+	transition: 0.3s;
+	font-size: 2rem;
+}
+.commits__btn:hover,
+.commits__btn:focus {
+	outline: none;
+	background-color: var(--theme-color);
+}
+.commits__btn:hover .fa-arrow-right,
+.commits__btn:hover .fa-arrow-left,
+.commits__btn:focus .fa-arrow-right,
+.commits__btn:focus .fa-arrow-left {
+	color: #fff;
+}
+.commits__next {
+	margin-left: 20px;
+}
+.commits-pagination .swiper-pagination-bullet {
+	width: 15px;
+	height: 15px;
+	background-color: #dde0e4;
+	opacity: 1;
+	transition: 0.3s;
+}
+.commits-pagination .swiper-pagination-bullet:focus {
+	outline: none;
+}
+.commits-pagination .swiper-pagination-bullet:nth-of-type(n + 2) {
+	margin-left: 15px;
 }
 /**=================COMMITS END===================*/
 /*!=================MAIN END===================*/

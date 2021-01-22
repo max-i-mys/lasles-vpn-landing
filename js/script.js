@@ -20,5 +20,15 @@ const partnerSlider = new Swiper('.partners__container',{
 const commitsSlider = new Swiper('.sw-com-container',{
 	slidesPerView: 3,
 	spaceBetween: 50,
-	loop: true
+	loop: true,
+	navigation: {
+		nextEl: '.commits__next',
+		prevEl: '.commits__prev',
+	},
+	pagination: {
+		el: '.commits-pagination',
+		type: 'bullets',
+		clickable: true,
+
+	},
 })

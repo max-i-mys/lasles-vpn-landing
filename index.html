@@ -4,11 +4,13 @@
 <head>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
 	<link rel="preload" href="css/style.css" as="style">
+	<link rel="preload" href="fontawesome/all.min.css" as="style">
 	<meta charset="UTF-8">
 	<meta name="description"
 		content="Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
+	<link href="fontawesome/all.min.css" rel="stylesheet">
 	<!-- <script async src="https://kit.fontawesome.com/93376086f5.js" crossorigin="anonymous"></script> -->
 	<title>LaslesVPN</title>
 </head>
@@ -169,7 +171,7 @@
 			</div>
 		</div>
 		<div class="commits">
-			<div class="container">
+			<div class="container-large">
 				<h2 class="titles">Trusted by Thousands of Happy Customer</h2>
 				<p class="titles-desk">These are the stories of our customers who have joined us with great pleasure when using
 					this crazy feature.</p>
@@ -177,9 +179,10 @@
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<a href="#" class="commits__commit">
-								<div class="commits__person"><img src="img/Viezh Robert.webp" class="commits__foto" loading="lazy"
-										width="1" height="1" alt="Viezh Robert">
-									<h3 class="commits__name">Viezh Robert<br>Shanxi, China</h3>
+								<div class="commits__person">
+									<img src="img/Viezh Robert.webp" class="commits__foto" loading="lazy" width="1" height="1"
+										alt="Viezh Robert">
+									<h3 class="commits__name">Viezh Robert<br><span>Shanxi, China</span></h3>
 									<span class="rating">4.5</span>
 								</div>
 								<div class="commits__text">
@@ -190,9 +193,10 @@
 						</div>
 						<div class="swiper-slide">
 							<a href="#" class="commits__commit">
-								<div class="commits__person"><img src="img/Yessica Christy.webp" class="commits__foto" loading="lazy"
-										width="1" height="1" alt="Yessica Christy">
-									<h3 class="commits__name">Yessica Christy<br>Shanxi, China</h3>
+								<div class="commits__person">
+									<img src="img/Yessica Christy.webp" class="commits__foto" loading="lazy" width="1" height="1"
+										alt="Yessica Christy">
+									<h3 class="commits__name">Yessica Christy<br><span>Shanxi, China</span></h3>
 									<span class="rating">4.5</span>
 								</div>
 								<div class="commits__text">
@@ -202,9 +206,9 @@
 						</div>
 						<div class="swiper-slide">
 							<a href="#" class="commits__commit">
-								<div class="commits__person"><img src="img/Kim.webp" class="commits__foto" loading="lazy" width="1"
-										height="1" alt="Kim Young Jou">
-									<h3 class="commits__name">Kim Young Jou<br>Seoul, South Korea</h3>
+								<div class="commits__person">
+									<img src="img/Kim.webp" class="commits__foto" loading="lazy" width="1" height="1" alt="Kim Young Jou">
+									<h3 class="commits__name">Kim Young Jou<br><span>Seoul, South Korea</span></h3>
 									<span class="rating">4.5</span>
 								</div>
 								<div class="commits__text">
@@ -214,8 +218,17 @@
 							</a>
 						</div>
 					</div>
-					<!-- Add Pagination -->
-					<div class="swiper-pagination"></div>
+				</div>
+				<div class="commits__navigations">
+					<div class="commits-pagination"></div>
+					<div class="commits__buttons">
+						<button class="commits__prev commits__btn">
+							<i class="fas fa-arrow-left"></i>
+						</button>
+						<button class="commits__next commits__btn">
+							<i class="fas fa-arrow-right"></i>
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
