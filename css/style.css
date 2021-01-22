@@ -852,6 +852,7 @@ button {
 }
 .footer__container {
 	padding: 180px 0 100px;
+	display: flex;
 }
 .footer__comp-info .logo {
 	position: static;
@@ -860,7 +861,7 @@ button {
 .footer__text {
 	line-height: 1.9;
 	color: var(--theme-color-2);
-	width: 30%;
+	width: 60%;
 	margin-bottom: 30px;
 }
 .footer__text span {
@@ -871,6 +872,7 @@ button {
 }
 .footer__sln {
 	box-shadow: 0px 4px 8px rgba(13, 16, 37, 0.2);
+	margin-bottom: 30px;
 }
 .footer__sln:hover,
 .footer__sln:focus {
@@ -884,6 +886,15 @@ button {
 .footer__sln:hover i,
 .footer__sln:focus i {
 	color: var(--light);
+}
+.copy {
+	color: #afb5c0;
+}
+.copy span {
+	font-weight: 500;
+}
+.footer__nav {
+	display: flex;
 }
 /*!=================FOOTER END===================*/
 /* Desktop first method
