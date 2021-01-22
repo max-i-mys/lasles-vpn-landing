@@ -688,7 +688,7 @@ button {
 .commits .titles-desk {
 	margin-bottom: 60px;
 }
-.sw-com-container {
+.swiper-wrapper {
 	margin-bottom: 60px;
 }
 .commits__commit {
@@ -786,12 +786,20 @@ button {
 .commits__next {
 	margin-left: 20px;
 }
+.commits-pagination {
+	max-width: 50%;
+	height: 15px;
+	overflow: hidden;
+}
 .commits-pagination .swiper-pagination-bullet {
 	width: 15px;
 	height: 15px;
 	background-color: #dde0e4;
 	opacity: 1;
 	transition: 0.3s;
+}
+.commits-pagination .swiper-pagination-bullet-active {
+	background-color: var(--theme-color);
 }
 .commits-pagination .swiper-pagination-bullet:focus {
 	outline: none;

@@ -29,6 +29,5 @@ const commitsSlider = new Swiper('.sw-com-container',{
 		el: '.commits-pagination',
 		type: 'bullets',
 		clickable: true,
-
 	},
 })
