@@ -303,6 +303,7 @@ html {
 	--theme-color: #f53838;
 	--theme-color-2: #4f5665;
 	--theme-color-3: #ffecec;
+	--theme-color-4: #f8f8f8;
 	--text-sh-theme: 0px 3px 3px rgba(245, 56, 56, 0.5);
 	--box-sh-theme: 0px 15px 20px rgba(245, 56, 56, 0.5);
 	--box-sh-theme-2: 0px 20px 50px rgba(13, 16, 37, 0.1);
@@ -411,6 +412,28 @@ button {
 .lists li:nth-of-type(n + 2) {
 	margin-top: 30px;
 }
+.logo img {
+	width: 35px;
+	height: auto;
+	margin-right: 10px;
+}
+.logo {
+	font-size: 2rem;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0;
+}
+.logo:hover,
+.logo:focus {
+	color: var(--theme-color);
+	text-shadow: var(--text-sh-theme);
+}
+.logo span {
+	font-size: 2rem;
+	font-weight: 700;
+}
 /*!=================COMMON STYLES END===================*/
 /*!=================HEADER START===================*/
 .header {
@@ -421,28 +444,6 @@ button {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-}
-.header__logo img {
-	width: 35px;
-	height: auto;
-	margin-right: 10px;
-}
-.header__logo {
-	font-size: 2rem;
-	font-weight: 500;
-	display: flex;
-	align-items: center;
-	position: absolute;
-	left: 0;
-}
-.header__logo:hover,
-.header__logo:focus {
-	color: var(--theme-color);
-	text-shadow: var(--text-sh-theme);
-}
-.header__logo span {
-	font-size: 2rem;
-	font-weight: 700;
 }
 .header__list {
 	display: flex;
@@ -819,6 +820,7 @@ button {
 	padding: 58px 70px;
 	border-radius: 10px;
 	box-shadow: 0px 5px 11px rgba(13, 16, 37, 0.3);
+	background-color: var(--light);
 }
 .subscribe__info h2 {
 	font-size: 3.5rem;
@@ -830,8 +832,60 @@ button {
 .subscribe__info h3 {
 	color: var(--theme-color-2);
 }
+.footer__sls {
+	display: flex;
+}
+.footer__sit:nth-of-type(n + 2) {
+	margin-left: 20px;
+}
+.footer__sln {
+	height: 34px;
+	width: 34px;
+	border-radius: 50%;
+	background-color: var(--light);
+	justify-content: center;
+	align-items: center;
+}
 /**=================SUBSCRIBE END===================*/
 /*!=================MAIN END===================*/
+/*!=================FOOTER START===================*/
+.footer {
+	background-color: var(--theme-color-4);
+	margin-top: -230px;
+}
+.footer__container {
+	padding: 180px 0 100px;
+}
+.footer__comp-info .logo {
+	position: static;
+	margin-bottom: 20px;
+}
+.footer__text {
+	line-height: 1.9;
+	color: var(--theme-color-2);
+	width: 30%;
+	margin-bottom: 30px;
+}
+.footer__text span {
+	font-weight: 500;
+}
+.fa-instagram {
+	font-size: 2rem;
+}
+.footer__sln:hover,
+.footer__sln:focus {
+	background-color: var(--theme-color);
+	outline: none;
+	box-shadow: 0px 4px 8px rgba(13, 16, 37, 0.2);
+}
+.footer__sln i {
+	color: var(--theme-color);
+	transition: 0.3s;
+}
+.footer__sln:hover i {
+	color: var(--light);
+}
+/*!=================FOOTER END===================*/
 /* Desktop first method
 
 /* // XX-Large devices (larger desktops) */
