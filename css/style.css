@@ -894,10 +894,24 @@ button {
 }
 .footer__nav {
 	display: flex;
+	width: 50%;
+	justify-content: space-between;
 }
 .footer__navlist > li:first-of-type {
 	font-size: 1.8rem;
 	font-weight: 500;
+	margin-bottom: 20px;
+}
+.footer__navlist .footer__navlink {
+	color: var(--theme-color-2);
+	padding: 10px 0;
+}
+.footer__navlist .footer__navlink:hover,
+.footer__navlist .footer__navlink:focus {
+	color: var(--theme-color);
+}
+.footer__navlist .footer__navlink:nth-of-type(n + 2) {
+	margin-top: 5px;
 }
 /*!=================FOOTER END===================*/
 /* Desktop first method
