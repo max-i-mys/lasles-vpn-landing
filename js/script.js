@@ -6,6 +6,7 @@ const partnerSlider = new Swiper('.partners__container',{
 		delay: 4000,
 		disableOnInteraction: false,
 	},
+	freeMode: true,
 	// breakpoints: {
 			// 768: {
 			// 		slidesPerView: 2,
@@ -29,5 +30,5 @@ const commitsSlider = new Swiper('.sw-com-container',{
 		el: '.commits-pagination',
 		type: 'bullets',
 		clickable: true,
-	},
+	}
 })
