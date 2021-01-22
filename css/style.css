@@ -882,7 +882,8 @@ button {
 	color: var(--theme-color);
 	transition: 0.3s;
 }
-.footer__sln:hover i {
+.footer__sln:hover i,
+.footer__sln:focus i {
 	color: var(--light);
 }
 /*!=================FOOTER END===================*/
