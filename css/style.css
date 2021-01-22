@@ -809,6 +809,9 @@ button {
 }
 /**=================COMMITS END===================*/
 /**=================SUBSCRIBE START===================*/
+.subscribe {
+	transform: translateY(-50%);
+}
 .subscribe__container {
 	display: flex;
 	justify-content: space-between;
