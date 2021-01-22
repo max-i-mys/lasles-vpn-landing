@@ -420,7 +420,6 @@ button {
 .logo {
 	font-size: 2rem;
 	font-weight: 500;
-	display: flex;
 	align-items: center;
 	position: absolute;
 	left: 0;
@@ -895,6 +894,10 @@ button {
 }
 .footer__nav {
 	display: flex;
+}
+.footer__navlist > li:first-of-type {
+	font-size: 1.8rem;
+	font-weight: 500;
 }
 /*!=================FOOTER END===================*/
 /* Desktop first method
