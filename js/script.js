@@ -2,6 +2,7 @@ const partnerSlider = new Swiper('.partners__container',{
 	slidesPerView: 5,
 	spaceBetween: 42,
 	loop: true,
+	centeredSlides: true,
 	autoplay: {
 		delay: 4000,
 		disableOnInteraction: false,
