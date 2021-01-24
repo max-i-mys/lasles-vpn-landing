@@ -653,6 +653,12 @@ button {
 	min-width: 178px;
 	margin-top: 22px;
 }
+.rate__button.button-theme {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+}
 .rate__button:focus {
 	outline: none;
 }
