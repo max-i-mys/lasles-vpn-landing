@@ -37,11 +37,11 @@ const commitsSlider = new Swiper(".sw-com-container", {
 		clickable: true,
 	},
 	breakpoints: {
-		767.98: {
+		575.98: {
 			slidesPerView: 2,
 			spaceBetween: 20,
 		},
-		1199.98: {
+		991.98: {
 			slidesPerView: 3,
 			spaceBetween: 20,
 		},

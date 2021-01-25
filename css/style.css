@@ -1012,21 +1012,22 @@ button {
 	}
 
 	.footer__container {
-		padding: 160px 0 60px;
+		padding: 160px 15px 60px;
 		display: flex;
 	}
 }
 /*TODO // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+	.container {
+		max-width: 720px;
+	}
 	.header {
 		padding: 95px 0 30px;
 	}
 	.header__list li:nth-last-of-type(n + 2) {
 		margin-right: 40px;
 	}
-	.container {
-		max-width: 720px;
-	}
+
 	.header__button {
 		min-width: 120px;
 	}
