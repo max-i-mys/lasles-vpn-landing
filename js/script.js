@@ -1,5 +1,5 @@
-const partnerSlider = new Swiper('.partners__container',{
-	slidesPerView: 5,
+const partnerSlider = new Swiper(".partners__container", {
+	slidesPerView: 2,
 	spaceBetween: 42,
 	loop: true,
 	centeredSlides: true,
@@ -8,38 +8,42 @@ const partnerSlider = new Swiper('.partners__container',{
 		disableOnInteraction: false,
 	},
 	freeMode: true,
-	// breakpoints: {
-			// 768: {
-			// 		slidesPerView: 2,
-			// 		spaceBetween: 20
-			// },
-	// 		992:{
-	// 				slidesPerView: 5,
-	// 				spaceBetween: 42
-	// 		}
-	// }
-})
-const commitsSlider = new Swiper('.sw-com-container',{
+	breakpoints: {
+		575.98: {
+			slidesPerView: 4,
+			spaceBetween: 40,
+		},
+		767.98: {
+			slidesPerView: 5,
+			spaceBetween: 40,
+		},
+		// 1199.98:{
+		// 		slidesPerView: 5,
+		// 		spaceBetween: 42
+		// }
+	},
+});
+const commitsSlider = new Swiper(".sw-com-container", {
 	slidesPerView: 1,
 	spaceBetween: 50,
 	loop: true,
 	navigation: {
-		nextEl: '.commits__next',
-		prevEl: '.commits__prev',
+		nextEl: ".commits__next",
+		prevEl: ".commits__prev",
 	},
 	pagination: {
-		el: '.commits-pagination',
-		type: 'bullets',
+		el: ".commits-pagination",
+		type: "bullets",
 		clickable: true,
 	},
 	breakpoints: {
-		991.98: {
+		767.98: {
 			slidesPerView: 2,
-			spaceBetween: 20
+			spaceBetween: 20,
 		},
 		1199.98: {
-				slidesPerView: 3,
-				spaceBetween: 20
+			slidesPerView: 3,
+			spaceBetween: 20,
 		},
-}
-})
+	},
+});
