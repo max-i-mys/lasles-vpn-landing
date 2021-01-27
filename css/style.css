@@ -1321,6 +1321,32 @@ button {
 	.commits__name span {
 		font-size: 1.3rem;
 	}
+	.subscribe__container {
+		text-align: center;
+	}
+	.subscribe__info h2 {
+		font-size: 2.5rem;
+		width: 100%;
+		margin-bottom: 4px;
+	}
+	.subscribe__container {
+		padding: 35px 25px;
+	}
+	.subscribe__info h3 {
+		margin-bottom: 15px;
+	}
+	.button-theme-2 {
+		min-width: 160px;
+	}
+	.subscribe {
+		transform: translateY(-60%);
+	}
+	.commits__navigations {
+		padding-bottom: 132px;
+	}
+	.footer {
+		margin-top: -208px;
+	}
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
