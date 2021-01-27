@@ -1182,8 +1182,145 @@ button {
 		margin-bottom: 20px;
 	}
 }
-/* // Small devices (landscape phones, less than 768px) */
+/*TODO // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+	.container {
+		max-width: 540px;
+	}
+	.cta-serv-container {
+		flex-direction: column;
+	}
+	.header {
+		padding: 95px 0 12px;
+	}
+	.cta {
+		margin-bottom: 35px;
+	}
+	.cta-serv__info {
+		width: 100%;
+		padding: 10px 0;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.cta-serv__img {
+		width: 80%;
+		transform: translateX(0);
+	}
+	.counter {
+		margin-bottom: 30px;
+	}
+	.counter__block {
+		padding: 0;
+		flex-direction: column;
+	}
+	.counter__icon {
+		width: 50px;
+		height: 50px;
+		margin-right: 0;
+		margin-bottom: 7px;
+	}
+	.counter__icon img {
+		width: 22px;
+	}
+	.counter__block h2 {
+		line-height: 1.1;
+		text-align: center;
+		font-size: 1.8rem;
+	}
+	.counter__number {
+		font-size: 2rem;
+	}
+	.serv__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.serv__img {
+		margin-bottom: 20px;
+	}
+	.lists li {
+		width: 50%;
+	}
+	.serv {
+		margin-bottom: 10px;
+	}
+	.rate {
+		margin-bottom: 30px;
+	}
+	.rate__plan {
+		min-height: 430px;
+	}
+	.rate__plans {
+		display: flex;
+		flex-direction: column;
+	}
+	.rate__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.rate__list li {
+		width: 44%;
+		margin-top: 12px;
+		margin-left: 6%;
+	}
+	.titles {
+		width: 50%;
+	}
+	.titles-desk {
+		width: 90%;
+	}
+	.map .titles-desk {
+		margin-bottom: 30px;
+	}
+	.map {
+		margin-bottom: 35px;
+	}
+	.partners {
+		margin-bottom: 35px;
+	}
+	.commits .titles-desk {
+		margin-bottom: 30px;
+	}
+	.commits__btn {
+		width: 50px;
+		height: 50px;
+	}
+	.commits-pagination .swiper-pagination-bullet {
+		width: 12px;
+		height: 12px;
+	}
+	.swiper-wrapper {
+		margin-bottom: 20px;
+	}
+	.subscribe__container {
+		flex-direction: column;
+	}
+	.commits__text p {
+		line-height: 1.4;
+		-webkit-line-clamp: 2;
+		font-size: 1.5rem;
+	}
+	.commits__commit {
+		padding: 24px 30px;
+		min-height: 190px;
+	}
+	.commits__person {
+		align-items: flex-start;
+		margin-bottom: 5px;
+		flex-direction: column;
+	}
+	.commits__foto {
+		margin-bottom: 5px;
+	}
+	.rating {
+		top: 10px;
+		right: 0px;
+	}
+	.commits__name {
+		font-size: 1.7rem;
+	}
+	.commits__name span {
+		font-size: 1.3rem;
+	}
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
