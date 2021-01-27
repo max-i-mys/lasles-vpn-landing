@@ -1434,7 +1434,7 @@ button {
 		position: absolute;
 		background-color: var(--light);
 		left: 0;
-		min-width: 195px;
+		min-width: 240px;
 		top: 0;
 		height: 100%;
 		justify-content: flex-end;
