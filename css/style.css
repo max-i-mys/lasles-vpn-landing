@@ -617,9 +617,9 @@ button {
 	padding: 35px 0;
 	width: 33.333%;
 }
-.counter__icon img {
-	width: 24px;
-	height: auto;
+.counter__icon i {
+	color: var(--theme-color);
+	font-size: 2.5rem;
 }
 .counter__icon {
 	width: 55px;
@@ -796,12 +796,10 @@ button {
 	position: absolute;
 	right: 30px;
 }
-.rating::after {
-	content: "";
-	width: 16px;
-	height: 16px;
-	background: url(../img/star.svg) no-repeat center;
+.rating ._icon-star {
 	margin-left: 10px;
+	color: #fea250;
+	font-size: 1.4rem;
 }
 .commits__text p {
 	line-height: 1.9;
@@ -1271,8 +1269,8 @@ button {
 		margin-right: 0;
 		margin-bottom: 7px;
 	}
-	.counter__icon img {
-		width: 22px;
+	.counter__icon i {
+		font-size: 2.2rem;
 	}
 	.counter__block h2 {
 		line-height: 1.1;
@@ -1343,9 +1341,18 @@ button {
 		width: 50px;
 		height: 50px;
 	}
+	._icon-arrow-right,
+	._icon-arrow-left {
+		color: var(--theme-color);
+		font-size: 2rem;
+	}
 	.commits-pagination .swiper-pagination-bullet {
 		width: 12px;
 		height: 12px;
+	}
+	.commits-pagination .swiper-pagination-bullet-active {
+		background-color: var(--theme-color);
+		width: 35px;
 	}
 	.swiper-wrapper {
 		margin-bottom: 20px;
@@ -1492,8 +1499,8 @@ button {
 		width: 45px;
 		height: 45px;
 	}
-	.counter__icon img {
-		width: 20px;
+	.counter__icon i {
+		font-size: 2rem;
 	}
 	.counter__block h2 {
 		font-size: 1.6rem;
