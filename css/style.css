@@ -412,9 +412,9 @@ button {
 .lists li:nth-of-type(n + 2) {
 	margin-top: 30px;
 }
-.logo img {
-	width: 35px;
-	height: auto;
+._icon-logo {
+	font-size: 3.8rem;
+	color: var(--theme-color);
 	margin-right: 10px;
 }
 .logo {
@@ -831,21 +831,21 @@ button {
 	justify-content: center;
 	align-items: center;
 }
-.fa-arrow-right,
-.fa-arrow-left {
+._icon-arrow-right,
+._icon-arrow-left {
 	color: var(--theme-color);
 	transition: 0.3s;
-	font-size: 2rem;
+	font-size: 2.3rem;
 }
 .commits__btn:hover,
 .commits__btn:focus {
 	outline: none;
 	background-color: var(--theme-color);
 }
-.commits__btn:hover .fa-arrow-right,
-.commits__btn:hover .fa-arrow-left,
-.commits__btn:focus .fa-arrow-right,
-.commits__btn:focus .fa-arrow-left {
+.commits__btn:hover ._icon-arrow-right,
+.commits__btn:hover ._icon-arrow-left,
+.commits__btn:focus ._icon-arrow-right,
+.commits__btn:focus ._icon-arrow-left {
 	color: #fff;
 }
 .commits__next {
@@ -917,7 +917,7 @@ button {
 .footer__text span {
 	font-weight: 500;
 }
-.fa-instagram {
+._icon-instagram {
 	font-size: 2rem;
 }
 .footer__sln {
