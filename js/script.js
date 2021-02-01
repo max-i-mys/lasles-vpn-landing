@@ -16,20 +16,16 @@ const partnerSlider = new Swiper(".partners__container", {
 		delay: 4000,
 		disableOnInteraction: false,
 	},
-	// freeMode: true,
+	freeMode: true,
 	breakpoints: {
 		575.98: {
-			slidesPerView: 4,
+			slidesPerView: 3,
 			spaceBetween: 40,
 		},
 		767.98: {
 			slidesPerView: 5,
 			spaceBetween: 40,
 		},
-		// 1199.98:{
-		// 		slidesPerView: 5,
-		// 		spaceBetween: 42
-		// }
 	},
 });
 const commitsSlider = new Swiper(".sw-com-container", {
