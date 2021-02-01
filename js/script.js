@@ -8,15 +8,15 @@ burgerBtn.onclick = function () {
 	}
 };
 const partnerSlider = new Swiper(".partners__container", {
-	slidesPerView: 2,
-	spaceBetween: 42,
+	slidesPerView: 3,
+	spaceBetween: 20,
 	loop: true,
 	centeredSlides: true,
 	autoplay: {
 		delay: 4000,
 		disableOnInteraction: false,
 	},
-	freeMode: true,
+	// freeMode: true,
 	breakpoints: {
 		575.98: {
 			slidesPerView: 4,

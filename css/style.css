@@ -1297,7 +1297,7 @@ button {
 		margin-bottom: 30px;
 	}
 	.rate__plan {
-		min-height: 430px;
+		min-height: 394px;
 	}
 	.rate__plans {
 		display: flex;
@@ -1306,11 +1306,7 @@ button {
 	.rate__list {
 		display: flex;
 		flex-wrap: wrap;
-	}
-	.rate__list li {
-		width: 44%;
-		margin-top: 12px;
-		margin-left: 6%;
+		margin-bottom: 25px;
 	}
 	.lists li:nth-of-type(n + 2) {
 		margin-top: 0;
@@ -1325,7 +1321,8 @@ button {
 		width: 90%;
 		margin: 0 auto 10px;
 	}
-	.map .titles-desk {
+	.map .titles-desk,
+	.commits .titles-desk {
 		margin-bottom: 30px;
 	}
 	.map {
@@ -1333,9 +1330,6 @@ button {
 	}
 	.partners {
 		margin-bottom: 35px;
-	}
-	.commits .titles-desk {
-		margin-bottom: 30px;
 	}
 	.commits__btn {
 		width: 50px;
@@ -1475,12 +1469,12 @@ button {
 		display: flex;
 	}
 	.cta__title {
-		font-size: 2.7rem;
+		font-size: 2.4rem;
 		margin-bottom: 8px;
 	}
 	.cta__text {
-		line-height: 1.5;
-		margin-bottom: 15px;
+		line-height: 1.4;
+		margin-bottom: 12px;
 	}
 	.button-theme-2 {
 		min-width: 140px;
@@ -1491,6 +1485,9 @@ button {
 	}
 	.cta-serv__img {
 		width: 100%;
+	}
+	.cta-serv__info {
+		margin-bottom: 0px;
 	}
 	.counter-container {
 		padding: 15px 0;
@@ -1516,6 +1513,9 @@ button {
 	}
 	.serv .cta-serv__info {
 		padding-left: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	.lists li {
 		padding-top: 8px;
@@ -1524,10 +1524,64 @@ button {
 		margin-right: 5px;
 	}
 	.serv__list {
-		display: flex;
+		flex-direction: column;
 	}
 	.lists li {
 		width: 100%;
+	}
+	.titles {
+		width: 90%;
+		margin: 0 auto 5px;
+		font-size: 2.2rem;
+		line-height: 1.1;
+	}
+	.titles-desk {
+		line-height: 1.4;
+		margin: 0 auto 5px;
+		width: 100%;
+	}
+	.rate {
+		margin-bottom: 20px;
+	}
+	.rate__plans {
+		align-items: center;
+	}
+	.rate__plan {
+		width: 85%;
+		min-height: 385px;
+	}
+	.rate__plan img {
+		width: 100px;
+	}
+	.rate__list {
+		flex-direction: column;
+		margin-bottom: 15px;
+	}
+	.rate__name {
+		margin-bottom: 10px;
+	}
+	.rate__button {
+		margin-top: 12px;
+	}
+	.map .titles-desk,
+	.commits .titles-desk {
+		margin-bottom: 15px;
+	}
+	.map {
+		margin-bottom: 20px;
+	}
+	.partners {
+		margin-bottom: 10px;
+	}
+	.commits__btn {
+		width: 46px;
+		height: 45px;
+	}
+	.commits__next {
+		margin-left: 10px;
+	}
+	.swiper-wrapper {
+		margin-bottom: 15px;
 	}
 }
 /* // X-Small devices (iPhone 5/5s/SE, equals to 320px) */
