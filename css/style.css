@@ -291,7 +291,7 @@ table {
 	box-sizing: border-box;
 }
 ::selection {
-	background-color: #f78080;
+	background-color: hsl(var(--hue), 88%, 74%);
 }
 html {
 	scroll-behavior: smooth;
