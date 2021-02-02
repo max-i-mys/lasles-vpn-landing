@@ -1475,9 +1475,6 @@ button {
 	.cta-serv__img {
 		width: 100%;
 	}
-	.cta-serv__info {
-		margin-bottom: 0px;
-	}
 	.counter-container {
 		padding: 15px 0;
 	}
@@ -1496,9 +1493,6 @@ button {
 	}
 	.counter {
 		margin-bottom: 20px;
-	}
-	.serv__img {
-		margin-bottom: 10px;
 	}
 	.serv .cta-serv__info {
 		padding-left: 0;
@@ -1520,7 +1514,7 @@ button {
 	}
 	.titles {
 		width: 90%;
-		margin: 0 auto 5px;
+		margin: 0 auto 10px;
 		font-size: 2.2rem;
 		line-height: 1.1;
 	}
@@ -1529,13 +1523,11 @@ button {
 		margin: 0 auto 5px;
 		width: 100%;
 	}
-	.rate {
-		margin-bottom: 20px;
-	}
 	.rate__plans {
 		align-items: center;
 	}
 	.rate__plan {
+		margin-top: 10px;
 		width: 85%;
 		min-height: 385px;
 	}
@@ -1556,12 +1548,6 @@ button {
 	.commits .titles-desk {
 		margin-bottom: 15px;
 	}
-	.map {
-		margin-bottom: 20px;
-	}
-	.partners {
-		margin-bottom: 10px;
-	}
 	.commits__btn {
 		width: 46px;
 		height: 45px;
@@ -1573,7 +1559,7 @@ button {
 		margin-bottom: 15px;
 	}
 	.subscribe__container {
-		padding: 20px;
+		padding: 30px 20px;
 	}
 	.subscribe__info h2 {
 		font-size: 2.2rem;
