@@ -429,6 +429,7 @@ button {
 .logo:focus {
 	color: var(--theme-color);
 	text-shadow: var(--text-sh-theme);
+	outline: none;
 }
 .logo span {
 	font-size: 2rem;
@@ -962,6 +963,7 @@ button {
 .footer__navlist .footer__navlink:hover,
 .footer__navlist .footer__navlink:focus {
 	color: var(--theme-color);
+	outline: none;
 }
 .footer__navlist .footer__navlink:nth-of-type(n + 2) {
 	margin-top: 5px;
