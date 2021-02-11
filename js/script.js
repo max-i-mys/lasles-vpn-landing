@@ -51,4 +51,8 @@ const commitsSlider = new Swiper(".sw-com-container", {
 			spaceBetween: 20,
 		},
 	},
+	keyboard: {
+		enabled: true,
+		onlyInViewport: false,
+	},
 });
